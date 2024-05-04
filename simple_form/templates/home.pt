@@ -1,0 +1,22 @@
+<div metal:use-macro="load: layout.pt">
+    <div metal:fill-slot="content">
+
+
+
+        <div class="content">
+
+
+            <form action="/submit_form" method="post">
+                <h2>Login</h2>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+
+
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<!DOCTYPE html metal:define-macro="layout">
+<html lang="{{request.locale_name}}">
+  <head>
+    <title>Simple Form</title>
+<link rel="stylesheet"
+          href="${request.static_url('simple_form:static/css/site.css') }"/>
+
+
+  </head>
+
+  <body>
+          <div>
+            <div metal:define-slot="content">No content</div>
+          </div>
+  </body>
+</html>
